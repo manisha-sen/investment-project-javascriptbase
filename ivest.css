@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    /* height: 30%; */
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form input, form button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+form button {
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f8f8f8;
+}
+
+button.update, button.remove {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+button.update {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+button.remove {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+
+#portfolio-chart {
+    margin-top: 1%;
+    max-width: 80%;
+    height: 200px;
+}
